@@ -12,6 +12,7 @@ int main(void)
 	{
 		putchar (i + '0');
 	}
+	
 	for (y = 'a'; y <= 'f'; y++)
 	{
 		putchar (y);
