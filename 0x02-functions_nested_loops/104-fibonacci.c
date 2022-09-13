@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: computes and prints the first 100 fibonacci numbers below (excluded), followed by a new line
+ * Description: computes and prints the sum of all the multiples of 3 or
+ * 5 below 100 (excluded), followed by a new line
  * Return: 0
  */
 int main(void)
