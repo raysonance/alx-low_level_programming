@@ -1,13 +1,14 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: computes and prints the first 100 fibonacci numbers below 100 , followed by a new line
+ * Description: computes and prints the sum of all the multiples of 3 or
+ * 5 below 1024 (excluded), followed by a new line
  * Return: 0
  */
 int main(void)
 {
 	int i = 0;
-	unsigned long int a = 0, b = 1, next = 0;
+	long int a = 0, b = 1, next;
 
 	while (i < 100)
 	{
@@ -17,7 +18,9 @@ int main(void)
 		printf("%lu", next);
 
 		if (i < 99)
+		{
 			printf(", ");
+		}
 		i++;
 	}
 	putchar('\n');
